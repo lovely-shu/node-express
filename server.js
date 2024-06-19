@@ -6,11 +6,6 @@ const app = express();
 const PORT = 5001;
 
 const db = mysql.createPool({
-  host: 'localhost',
-  user: 'root',
-  password: 'love1234', // MySQL 비밀번호
-  database: 'suadb', // 사용할 데이터베이스
-});
 
 app.use(cors());
 app.use(express.json());
